@@ -18,7 +18,7 @@ while True:
         break;
     else:
         # Check if the number is still less than half of the input number
-        if divisor == math.floor(num / 2):
+        if divisor >= math.floor(num / 2):
             print("Number is prime!")
             break;
         else:
