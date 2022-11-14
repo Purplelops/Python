@@ -1,4 +1,4 @@
-import math
+from math import floor
 
 # Ask the user for input and convert it to an int
 num = int(input("Input the number you want to check: "))
@@ -18,7 +18,7 @@ while True:
         break;
     else:
         # Check if the number is still less than half of the input number
-        if divisor == math.floor(num / 2):
+        if divisor == floor(num / 2):
             print("Number is prime!")
             break;
         else:
