@@ -9,7 +9,7 @@ divisor = 2
 while True:
     # If the number's remainder is zero, then it's not prime
     if num % divisor == 0:
-        print("Number is not prime!")
+        print("Number is not prime! It is divisible by", divisor)
         break;
     else:
         # Check if the number is still less than half of the input number
@@ -19,4 +19,3 @@ while True:
         else:
             # Add one to the divisor and repeat
             divisor += 1
-    
