@@ -22,7 +22,7 @@ while True:
         end = time.time()
         elapsed_time = (end - start) * 1000
         print("Number is not prime! It is divisible by", divisor, "It took", elapsed_time, "ms to check.")
-        break;
+        break
     else:
         # Check if the number is still less than half of the input number
         if divisor >= math.floor(num / 2):
@@ -30,7 +30,7 @@ while True:
             end = time.time()
             elapsed_time = (end - start) * 1000
             print("Number is prime!", "It took", elapsed_time, "ms to check.")
-            break;
+            break
         else:
             # Add two to the divisor and repeat
             # I add two, because any number divisible by an even number must be even
